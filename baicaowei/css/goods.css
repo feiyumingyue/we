@@ -1,0 +1,76 @@
+
+
+
+
+
+
+
+
+/*轮播部分*/
+.details{width:100%;height:518px;margin-left:116px;position: relative;margin-top:37px;}
+.details .details1{width:404px;height:517px;}
+.details .details_pic{overflow:hidden;width:400px;height:400px;position:relative; z-index: 2;}
+.details_pic .details_pic1{width:2400px;height:400px;position: absolute;left:0;top:0;}
+.details_pic1 li{ width:400px;height:400px;float:left;}
+.details .details_spic{width:400px;height:72px;position: absolute;top:409px;}
+.details_spic li{float:left;width:70px;height:70px;border:1px solid #cccccc;margin-right:8px;}
+.details_spic .details_spic_last{margin-right:0;}
+.addOrangeBorder{border:1px solid #e37c74;}
+/*加入购物车部分*/
+.details .details2{width:474px;height: 483px;position: absolute;top:0;left:444px;}
+.details2_word{width:474px;height:169px;}
+.goods_num{width:474px;height:200px;}
+.goods_num .goods_num1{width:474px;height:81px;}
+.goods_num .anniu{width:474px;height:53px;}
+.details2 h3{font-size: 20px;}
+.details2 p{width:180px;height:40px;line-height: 40px;}
+.details2 span{color:#929292;font-size:16px;}
+.details2 p .price{color:#D41212;font-weight: bold;}
+.details2 .btn1{cursor:pointer;font-size:18px;color:white;text-align:center;line-height:40px;width:162px;height:40px;background: #d4362a;border:none;margin-right:13px;}
+.details2 .btn2{cursor:pointer;width:162px;height:40px;background: #dddddd;font-size:18px;color:#666666;text-align:center;line-height:40px;border:none;}
+.details2 img{margin-top:20px;}
+
+/*商品数量部分*/
+.goods_num{width:474px;height:100px;}
+.goods_num p{width:80px;font-size:14px;float:left;line-height: 44px;}
+.goods_num .add_subtract{width:111px;height:44px;}
+.add_subtract .buy_num{width:45px;height:38px;}
+.add_subtract .add{cursor:pointer;width:30px;height:44px;background: #ACACAC;}
+.add_subtract p{width:40px;height:44px;text-align: center;}
+
+/*商品详情导航部分*/
+.goods_nav{width:941px;height:47px;background:#f2f2f2 ;}
+.goods_nav li{margin-left:2px;float:left;width:100px;height:47px;text-align: center;line-height: 47px;}
+.goods_nav li:hover{color:white;background:#d4362a ;}
+.goods_nav .goods_nav1{background:#d4362a ;color:white;}
+.backToRed{background:#d4362a ;color:white;}
+.photodetails .onet{min-hieght:100px;_height:100px;}
+/*吃货评价*/
+.photodetails{width:941px;min-height:100px;_height:1000px;}
+.photodetails .goods_evaluate{display:none;width:941px;min-height:200px;_height:200px;}
+.goods_evaluate .goods_evaluate1{height:128px;background: #ffffff;border-bottom:1px solid #f0f0f0}
+.goods_evaluate .goods_evaluate1 span{font-size: 18px;color:#626262;margin-right:400px;}
+.goods_evaluate .goods_evaluate1 p{margin-top:18px;color:#d7d7d7;}
+/*交易记录*/
+.recommend{display:none;width:941px;min-height:100px;_height:100px;}
+
+/*猜你喜欢*/
+.likes{width:941px;height: 300px;position:relative;z-index:3;}
+.likes .likes1{min-height: 20px;_height:20px;}
+.likes .likes1 .main4_C_one{margin-right:40px;}
+
+.goods_footer{margin-left:-120px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1747 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+
+	<body>
+		<!--右导航条-->
+		<div class="item_right">
+			<div class="person _person" id="people"><img class="picRegister" src="img/item_right/item_right_03.jpg" /></div>
+			<!--登录注册小菜单-->
+			<div class="register border _register" id="list_one">
+				<img class="crab" src="img/register/register_03.jpg" />
+				<div class="register_word" >
+					<span>您好,</span>
+					<a class="register_feature" href="enter_in.html">请登录</a>
+					<!--<img src="img/register/register_07.jpg"/>-->
+					<a class="register_feature" href="register.html">注册</a>
+				</div>
+				<ul class="register3">
+					<li class="register3_1 left">
+						<img src="img/register/register_11.jpg" />
+						<p>我的订单</p>
+					</li>
+					<li class="register3_1 left">
+						<img src="img/register/register_13.jpg" />
+						<p>我的收藏</p>
+						<li class="register3_1 left spec">
+							<img src="img/register/register_16.jpg" />
+							<p>卡券充值</p>
+						</li>
+					</li>
+				</ul>
+			</div>
+
+			<img class="grey1" src="img/item_right/item_right_05.jpg" />
+			<div class="shopcar">
+				<img src="img/item_right/item_right_07.jpg" />
+				<p><a href="shop_car.html">购物车</a></p>
+				<div class="number">0</div>
+				<img src="img/item_right/item_right_05.jpg" />
+			</div>
+
+			<img class="grey1_1" src="img/item_right/item_right_05.jpg" />
+
+			<div class="indent _person" id="dingdan">
+				<img class="picRegister" src="img/item_right/item_right_09.jpg" />
+				<p>订单</p>
+			</div>
+			<!--订单滑动小菜单-->
+			<div class="indent_list _register" id="list_two">
+				<span>待付款订单</span>
+			</div>
+
+			<div class="indent ticket _person" id="cut_paper">
+				<img class="picRegister" src="img/item_right/item_right_11.jpg" />
+				<p>券</p>
+			</div>
+			<!--我的优惠券滑动小菜单-->
+			<div class="discount indent_list _register" id="list_thr">
+				<span>我的优惠券</span>
+			</div>
+
+			<div class="itemR_twoCode _person" id="ma"><img class="picRegister" src="img/item_right/item_right_13.jpg" /></div>
+			<!--手机下单滑动小菜单-->
+			<div class="pho_order _register" id="list_four">
+				<img src="img/item_right/pho_order.jpg" />
+				<span>扫一扫，手机下单更方便</span>
+			</div>
+
+			<!--<div class="tel _person"><img class="picRegister" src="img/item_right/item_right_15.jpg" /></div>
+			<!--微信客服滑动小菜单-->
+			<!--<div class="weixin_pic _register"></div>-->-->
+
+			<!--<div class="toTop _person">
+				<img class="picRegister" src="img/item_right/item_right_17.jpg" />
+				<p>top</p>
+			</div>-->
+			<!--返回顶部滑动小菜单-->
+			<div class="indent_list top _register">
+				<span>返回顶部</span>
+			</div>
+		</div>
+
+		<!--头部-->
+		<div class="header">
+			<div class="header1">
+				<ul class="snav">
+					<li class="snav1 left">您好，<a href="enter_in.html"<span id="enter">请登录</span>
+					<img id="enter_triangle" src="img/header_snav_login.jpg" /> </li>
+					<li class="snav1 left"><a href="register.html">免费注册</a></li>
+					<li class="snav2 right" id=more_word><a href="###">更多</a><img src="img/header1_snav_06.jpg" /></li>
+					<li class="snav2 right wider" id="word_service1"><a href="###">联系客服</a><img src="img/header1_snav_06.jpg" /></li>
+					<li class="snav2 right"><a href="enter_in.html">我的收藏</a></li>
+					<li class="snav2 right"><a href="enter_in.html">我的订单</a></li>
+			</div>
+			<!--登录下拉菜单-->
+			<div class="login border" id="_login">
+				<input class="txt" type="text" value="请输入手机号" />
+				<input class="txt" type="text" value="请输入密码" />
+				<br/>
+				<div class="choose">
+					<div class="rad"><img src="img/login_radio.jpg" />十天内免登陆</div>
+					<span>忘记密码？</span>
+				</div>
+				<div class="red">登录</div>
+			</div>
+			<!--联系客服下拉菜单-->
+			<div class="service1 border" id="_service1">
+				<img src="img/sevice1_07.jpg" />
+				<p class="weixin">微信客服咨询</p>
+				<p class="number">0777001-123344</p>
+				<p class="phone">电话咨询</p>
+			</div>
+			<!--更多的下拉效果-->
+			<ul class="more border" id="_more">
+				<li><a id="more_content" href="###">收藏本站</a></li>
+				<li><a id="more_content" href="http://weibo.com/baicaowei" target="_blank">新浪微博</a></li>
+				<li><a id="more_content" href="http://tieba.baidu.com/f?kw=%B0%D9%B2%DD%CE%B6&fr=ala0&tpl=5" target="_blank">百度贴吧</a></lrei>
+			</ul>
+			<!--logo和搜索-->
+			<div class="header2">
+				<div class="logo">
+					<img src="img/header2_03.gif" />
+					<div class="logo_word">
+						<p class="weighter">官方商城</p>
+						<p class="_normal">趣味零食探索家</p>
+					</div>
+				</div>
+				<div class="search">
+					<input class="search_box" type="text" value="搜索您需要的商品" />
+					<div class="search_word"><a href="###">搜索</a></div>
+				</div>
+				<a class="shopping_card border" href="shop_car.html">
+					<img src="img/header2_06.gif" />
+					<span>我的购物车</span>
+				</a>
+			</div>
+			
+			<div class="header2 pop_up">
+				<div class="logo">
+					<img src="img/header2_03.gif" />
+					<div class="logo_word">
+						<p class="weighter">官方商城</p>
+						<p class="_normal">趣味零食探索家</p>
+					</div>
+				</div>
+				<div class="search">
+					<input class="search_box" type="text" value="搜索您需要的商品" />
+					<div class="search_word"><a href="###">搜索</a></div>
+				</div>
+				<div class="shopping_card border">
+					<img src="img/header2_06.gif" />
+					<span>我的购物车</span>
+				</div>
+			</div>
+		</div>
+		<!--导航条-->
+		<div class="nav">
+			<ul class="nav1">
+				<li class="one">
+					<p>全部商品分类</p><img src="img/nav_08.jpg" /></li>
+				<li class="two"><a href="###">首页</a></li>
+				<li class="thr" id="new_taste" ><a href="###">新品尝鲜</a>
+					<div class="under" ></div>
+				</li>
+			</ul>
+			<a class="rechargeable" href="###">
+				<img src="img/nav_03.jpg" />
+				<p>充值卡</p>
+			</a>
+			<a class="rechargeable  Redemption" href="###">
+				<img src="img/nav_05.jpg" />
+				<p>提货券</p>
+			</a>
+		</div>
+
+		<!--banner图-->
+		<div class="banner">
+			<!--二级菜单-->
+			<div class="sec_list border">
+				<ul class="targ">
+					<li>
+						<h3>坚果炒货</h3>
+						<img src="img/sec_list/images/sec_list_06.jpg" />
+						<p>
+							<span>带壳坚果</span><span>健康果仁</span><span>休闲小吃</span>
+						</p>
+					</li>
+					<li>
+						<h3>缤纷果干</h3>
+						<img src="img/sec_list/images/sec_list_06.jpg" />
+						<p>
+							<span>带壳坚果</span><span>健康果仁</span><span>休闲小吃</span>
+						</p>
+					</li>
+					<li>
+						<h3>坚果炒货</h3>
+						<img src="img/sec_list/images/sec_list_06.jpg" />
+						<p>
+							<span>带壳坚果</span><span>健康果仁</span><span>休闲小吃</span>
+						</p>
+					</li>
+					<li>
+						<h3>坚果炒货</h3>
+						<img src="img/sec_list/images/sec_list_06.jpg" />
+						<p>
+							<span>带壳坚果</span><span>健康果仁</span><span>休闲小吃</span>
+						</p>
+					</li>
+					<li>
+						<h3>坚果炒货</h3>
+						<img src="img/sec_list/images/sec_list_06.jpg" />
+						<p>
+							<span>带壳坚果</span><span>健康果仁</span><span>休闲小吃</span>
+						</p>
+					</li>
+					<li>
+						<h3>坚果炒货</h3>
+						<img src="img/sec_list/images/sec_list_06.jpg" />
+						<p>
+							<span>带壳坚果</span><span>健康果仁</span><span>休闲小吃</span>
+						</p>
+					</li>
+					<li class="spec">
+						<h3>坚果炒货</h3>
+						<img src="img/sec_list/images/sec_list_06.jpg" />
+						<p>
+							<span>带壳坚果</span><span>健康果仁</span><span>休闲小吃</span>
+						</p>
+					</li>
+				</ul>
+			</div>
+
+			<div class="one border">
+				<h3><a href="###">带壳坚果</a></h3>
+				<p>
+					<span><a href="goods .html">东北松子</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">夏威夷果</a></span>
+					<span><a href="###">巴西松子</a></span>
+					<span><a href="###">开心果</a></span>
+					<span><a href="###">手剥山核桃</a></span>
+					<span><a href="###">小白杏</a></span>
+					<span><a href="###">红松子</a></span>
+					<span><a href="###">诸暨香榧</a></span>
+					<span><a href="###">榛子</a></span>
+				</p>
+				<h3><a href="###">健康果仁</a></h3>
+				<p>
+					<span><a href="###">炭烧腰果</a></span>
+					<span><a href="###">盐焗腰果</a></span>
+					<span><a href="###">带皮腰果</a></span>
+					<span><a href="###">巴旦木仁</a></span>
+					<span><a href="###">松子仁</a></span>
+					<span><a href="###">大山核桃仁</a></span>
+					<span><a href="###">山核桃仁</a></span>
+					<span><a href="###">琥珀桃仁</a></span>
+					<span><a href="###">碧根果仁</a></span>
+					<span><a href="###">夏威夷果仁</a></span>
+				</p>
+			</div>
+			<div class="one border two">
+				<h3><a href="###">休闲小吃</a></h3>
+				<p>
+					<span><a href="###">黑皮花生</a></span>
+					<span><a href="###">黑芸豆</a></span>
+					<span><a href="###">奶油花生</a></span>
+					<span><a href="###">多味花生</a></span>
+					<span><a href="###">熟板栗仁</a></span>
+					<span><a href="###">珍珠莲子</a></span>
+					<span><a href="###">南瓜子</a></span>
+					<span><a href="###">白芸豆</a></span>
+					<span><a href="###">蟹黄蚕豆</a></span>
+					<span><a href="###">笑口板栗</a></span>
+				</p>
+				<h3><a href="###">带壳坚果</a></h3>
+				<p>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+				</p>
+				<h3><a href="###">带壳坚果</a></h3>
+				<p>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+				</p>
+			</div>
+			<div class="one border thr">
+				<h3><a href="###">带壳坚果</a></h3>
+				<p>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+				</p>
+				<h3><a href="###">带壳坚果</a></h3>
+				<p>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+				</p>
+				<h3><a href="###">带壳坚果</a></h3>
+				<p>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+				</p>
+				<h3><a href="###">带壳坚果</a></h3>
+				<p>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+				</p>
+				<h3><a href="###">带壳坚果</a></h3>
+				<p>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+				</p>
+			</div>
+			<div class="one border fou">
+				<h3><a href="###">带壳坚果</a></h3>
+				<p>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+				</p>
+				<h3><a href="###">带壳坚果</a></h3>
+				<p>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+				</p>
+				<h3><a href="###">带壳坚果</a></h3>
+				<p>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+				</p>
+			</div>
+			<div class="one border fiv">
+				<h3><a href="###">带壳坚果</a></h3>
+				<p>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+				</p>
+			</div>
+			<div class="one border six">
+				<h3><a href="###">带壳坚果</a></h3>
+				<p>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+				</p>
+			</div>
+			<div class="one border sev">
+				<h3><a href="###">带壳坚果</a></h3>
+				<p>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+				</p>
+				<h3><a href="###">带壳坚果</a></h3>
+				<p>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+					<span><a href="###">碧根果</a></span>
+				</p>
+			</div>
+			<div class="banner_pic"></div>
+		</div>
+		<!--主体部分-->
+		<!--食品第一部分-->
+		<div class="main1">
+			<span class="spec">大家都买</span><span>家中必备这些零食</span>
+			<div class="picture">
+				<a href="goods .html"><img src="img/main1/images/main1_03.jpg" /></a>
+				<a href="###"><img src="img/main1/images/main1_05.jpg" /></a>
+				<a href="###"><img src="img/main1/images/main1_06.jpg" /></a>
+				<a href="###"><img src="img/main1/images/main1_08.jpg" /></a>
+				<a href="###"><img src="img/main1/images/main1_10.jpg" /></a>
+			</div>
+		</div>
+		<!--食品第二部分-->
+		<div class="main2_1"></div>
+		<div class="main2_2">
+			<span class="spec">新品尝鲜</span><span>家中必备这些零食</span>
+			<div class="main2_2_B">
+				<div class="main2_2_B1 left" >
+					<a href="###">
+						<img class="border" src="img/main2/images/main2_03.jpg"/>
+						<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+						<h3>￥11.9<span>￥23.9</span></h3>
+					</a>
+				</div>
+				<div class="main2_2_B1 left" >
+					<a href="###">
+						<img class="border" src="img/main2/images/main2_05.jpg"/>
+						<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+						<h3>￥11.9<span>￥23.9</span></h3>
+					</a>
+				</div>
+				<div class="main2_2_B1 left" >
+					<a href="###">
+						<img class="border" src="img/main2/images/main2_07.jpg"/>
+						<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+						<h3>￥11.9<span>￥23.9</span></h3>
+					</a>
+				</div>
+				<div class="main2_2_B1 left" >
+					<a href="###">
+						<img class="border" src="img/main2/images/main2_09.jpg"/>
+						<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+						<h3>￥11.9<span>￥23.9</span></h3>
+					</a>
+				</div>
+				<div class="main2_2_B1 left " >
+					<a href="###">
+						<img class="border" src="img/main2/images/main2_11.jpg"/>
+						<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+						<h3>￥11.9<span>￥23.9</span></h3>
+					</a>
+				</div>
+			</div>
+		</div>	
+		<div class="main2_3"></div>
+		<!--主体竖排轮播图部分-->
+		<div class="main3">
+			<div class="photo_frame">
+				<ul class="pic">
+					<li><img src="img/main3/main3_1.jpg"/></li>
+					<li><img src="img/main3/main3_2.jpg"/></li>
+					<li><img src="img/main3/main3_3.jpg"/></li>
+					<li><img src="img/main3/main3_4.jpg"/></li>
+				</ul>
+			</div>
+			<div class="word left">
+				<ul class="word1 "> 
+					<li class="red">新鲜坚果</li>
+					<li>酸甜果干</li>
+					<li>正宗肉铺</li>
+					<li>特色糕点</li>
+				</ul>
+				<div class="back"><img src="img/main3/main3_background.jpg"/></div>
+			</div>
+		</div>
+		<!--main4主题横排轮播部分-->
+		<div class="main4" id="_main4">
+			<img class="left" src="img/main4/images/main4_03.jpg"/>
+			<div class="main4_C left" id="_main4_C">
+				<div class="long_box">
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+					
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+					
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		<ul class="main4_R left">
+			<li class="main4_R1 left">带壳坚果</li>
+			<li class="main4_R1 left">健康果仁</li>
+			<li class="main4_R1 left">休闲炒货</li>
+		</ul>
+	</div>
+	
+	<!--main5主题横排轮播部分-->
+		<div class="main4" id="_main5">
+			<img class="left" src="img/main4/fruit.jpg"/>
+			<div class="main4_C left" id="_main5_C">
+				<div class="long_box">
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+					
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+					
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		<ul class="main4_R specle left">
+			<li class="main4_R1 left">带壳坚果</li>
+			<li class="main4_R1 left">健康果仁</li>
+			<li class="main4_R1 left">休闲炒货</li>
+		</ul>
+	</div>
+	
+	<!--main6主题横排轮播部分-->
+		<div class="main4" id="_main6">
+			<img class="left" src="img/main4/fish.jpg"/>
+			<div class="main4_C left" id="_main6_C">
+				<div class="long_box">
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+					
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+					
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		<ul class="main4_R left">
+			<li class="main4_R1 left">带壳坚果</li>
+			<li class="main4_R1 left">健康果仁</li>
+			<li class="main4_R1 left">休闲炒货</li>
+		</ul>
+	</div>
+	
+	<!--main7主题横排轮播部分-->
+		<div class="main4" id="_main7">
+			<img class="left" src="img/main4/vegetarian.jpg"/>
+			<div class="main4_C left" id="_main7_C">
+				<div class="long_box">
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+					
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+					
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		<ul class="main4_R left">
+			<li class="main4_R1 left">带壳坚果</li>
+			<li class="main4_R1 left">健康果仁</li>
+			<li class="main4_R1 left">休闲炒货</li>
+		</ul>
+	</div>
+	
+	<!--main8主题横排轮播部分-->
+		<div class="main4" id="_main8">
+			<img class="left" src="img/main4/candy.jpg"/>
+			<div class="main4_C left" id="_main8_C">
+				<div class="long_box">
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+					
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+					
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		<ul class="main4_R spec2 left">
+			<li class="main4_R1 left">带壳坚果</li>
+			<li class="main4_R1 left">健康果仁</li>
+			<li class="main4_R1 left">休闲炒货</li>
+		</ul>
+	</div>
+	
+	<!--main9主题横排轮播部分-->
+		<div class="main4" id="_main9">
+			<img class="left" src="img/main4/Sinkiang.jpg"/>
+			<div class="main4_C left" id="_main9_C">
+				<div class="long_box">
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+					
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+					
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		<ul class="main4_R  left">
+			<li class="main4_R1 left">带壳坚果</li>
+			<li class="main4_R1 left">健康果仁</li>
+			<li class="main4_R1 left">休闲炒货</li>
+		</ul>
+	</div>
+	
+	<!--main10主题横排轮播部分-->
+		<div class="main4" id="_main10">
+			<img class="left" src="img/main4/gift.jpg"/>
+			<div class="main4_C left" id="_main10_C">
+				<div class="long_box">
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+					
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+					
+					<div class="move1">
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_09.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_05.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_07.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_14.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_15.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+						<div class="main4_C_one" href="###">
+							<a href="###">
+								<img src="img/main4/images/main4_16.jpg"/>
+								<p>【甜辣爆豆干】零食小吃特产豆腐干</p>
+									<h3>￥11.9<span>￥23.9</span></h3>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		<ul class="main4_R  left">
+			<li class="main4_R1 left">带壳坚果</li>
+			<li class="main4_R1 left">健康果仁</li>
+			<li class="main4_R1 left">休闲炒货</li>
+		</ul>
+	</div>
+		<!--尾部-->
+		<div class="footer">
+
+			<div class="footer1">
+				<a class="footer1_1" href="###">
+					<img src="img/footer1/footer_07.jpg" />
+					<h3>正品保障</h3>
+					<p>品牌直销，品质保障</p>
+				</a>
+				<a class="footer1_1" href="###">
+					<img src="img/footer1/footer_09.jpg" />
+					<h3>快速发货</h3>
+					<p>24小时发货，全国9仓发货</p>
+					<p>促销日除外</p>
+				</a>
+				<a class="footer1_1" href="###">
+					<img src="img/footer1/footer_11.jpg" />
+					<h3>免运费</h3>
+					<p>品牌直销，品质保障</p>
+				</a>
+				<a class="footer1_1" href="###">
+					<img src="img/footer1/footer_13.jpg" />
+					<h3>30天</h3>
+					<p>品牌直销，品质保障</p>
+				</a>
+				<a class="footer1_1" href="###">
+					<img src="img/footer1/footer_15.jpg" />
+					<h3>优质服务</h3>
+					<p>品牌直销，品质保障</p>
+				</a>
+			</div>
+			<!-- <img class="long_grey" src="img/footer2/footer_31.jpg/"> -->
+			<div class="footer2">
+				<div class="footer2_1 left">
+					<p class="newperson"><img class="left" src="img/footer2/footer_36.jpg" /><span>新手指南</span></p>
+					<p><a href="###">注册协议</a></p>
+					<p><a href="###">购物流程</a></p>
+				</div>
+				<div class="footer2_1 footer2_11 left">
+					<p class="newperson"><img class="left" src="img/footer2/footer_39.jpg" /><span>新手指南</span></p>
+					<p><a href="###">注册协议</a></p>
+					<p><a href="###">购物流程</a></p>
+				</div>
+				<div class="footer2_1 footer2_11  left">
+					<p class="newperson"><img class="left" src="img/footer2/footer_43.jpg" /><span>新手指南</span></p>
+					<p><a href="###">注册协议</a></p>
+					<p><a href="###">购物流程</a></p>
+				</div>
+				<div class="footer2_1 footer2_11  left">
+					<p class="newperson"><img class="left" src="img/footer2/footer_45.jpg" /><span>新手指南</span></p>
+					<p><a href="###">注册协议</a></p>
+					<p><a href="###">购物流程</a></p>
+				</div>
+				<div class="footer2_1 footer2_11  left">
+					<p class="newperson"><img class="left" src="img/footer2/footer_53.jpg" /><span>新手指南</span></p>
+					<p><a href="###">注册协议</a></p>
+					<p><a href="###">购物流程</a></p>
+				</div>
+			</div>
+			<div class="footer3">
+				<img class="left" src="img/footer_57.jpg" />
+				<p class="sevice_number">客服热线：0571-798799980(每天9:00-22:00)</p>
+			</div>
+			<div class="footer4">
+				<ul>
+					<li><a href="###">首页</a></li>
+					<li><a href="###">品牌介绍</a></li>
+					<li><a href="###">517吃货节</a></li>
+					<li><a href="###">男神来了</a></li>
+					<li><a href="###">小微公益</a></li>
+					<li><a href="###">小味快速达</a></li>
+					<li><a href="###">百草味贴吧</a></li>
+				</ul>
+				<p>&copy2011-2014&nbsp&nbspBjflsld&nbsp&nbspBjflsld&nbsp&nbspBjflsld</p>
+			</div>
+		</div>
+		<!--左导航条-->
+		<ul class="item_left border" id="_item_left">
+			<li >
+				<img src="img/food_item/footer_03.jpg" />
+				<p>坚果炒货</p>
+			</li>
+			<li>
+				<img src="img/food_item/footer_17.jpg" />
+				<p>缤纷果干</p>
+			</li>
+			<li>
+				<img src="img/food_item/footer_19.jpg" />
+				<p>肉脯海鲜</p>
+			</li>
+			<li>
+				<img src="img/food_item/footer_26.jpg" />
+				<p>素食卤味</p>
+			</li>
+			<li>
+				<img src="img/food_item/footer_28.jpg" />
+				<p>糕点糖果</p>
+			</li>
+			<li>
+				<img src="img/food_item/footer_34.jpg" />
+				<p>新疆特产</p>
+			</li>
+			<li>
+				<img src="img/food_item/footer_38.jpg" />
+				<p>精品礼盒</p>
+			</li>
+			<li class="backTop">
+				<img src="img/food_item/footer_jiao_53.jpg" />
+			</li>
+		</ul>
+
+	</body>
+	<script src="js/common.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/index.js"></script>
+	<script>
+//		//右导航条的动态样式
+//			var _person=$("._person");
+//			//var _register=$("._register");
+//			var _picRegister=$(".picRegister");
+//			//console.log(_person);
+//			//console.log(_register);
+//			//console.log(_picRegister);
+//			//console.log(_register[1]);
+//			_person.hover(function(){
+//				var $this=$(this);
+//				console.log($this.nextSibling);
+//				$this.css("background","#d43728");
+//				$this.nextSibling.show();
+//				_picRegister.eq($this.index()).attr("src","img/item_right/"+$this.index()+".jpg");
+//			},function(){
+//				var $this=$(this);
+//				$this.css("background","black");
+//				$this.nextSibling.hide();
+//				_picRegister.eq($this.index()).attr("src","img/item_right/"+$this.index()+".jpg");
+//			});
+	</script>
+
+</html>
